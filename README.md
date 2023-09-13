@@ -68,3 +68,80 @@ Projeto de Jogadores
 
 </body>
 </html
+
+CSS3 
+
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+.jogadores {
+    width: 100px;
+    height: 60px;
+    background-image: none;
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.button{
+    display: flex;
+    width: auto;
+    height: 40px;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+button{
+    background-color: #000;
+    border-radius: 15px;
+
+}
+button a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+#colecao{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 100px;
+}
+.blusas{
+    display: flex;
+    justify-content: space-between;
+}
+#colecao,
+.blusas,
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+#colecao,
+.blusas,
+img{
+    width: 500px;
+}
+#colecao,
+.blusasdois{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+#button{
+    display: flex;
+    width: auto;
+    height: 40px;
+}
+.buttonum{
+  margin-left: 200px;
+}
